@@ -17,9 +17,9 @@ def simulate_data():
     epsilon = np.random.normal(0,1, size=5000)
 
     y= B1*X1+ B2*X2 +epsilon
-
-    # model = smf.OLS ('Y~np.log(X)', data=df1).fit()
-'''pass
+'''
+     model = smf.OLS ('Y~np.log(X)', data=df1).fit()
+pass
 
 
 def compare_models():
@@ -72,3 +72,4 @@ def run_hospital_regression():
  
 
 ### END ###
+'''
