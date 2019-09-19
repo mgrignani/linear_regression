@@ -19,7 +19,7 @@ def simulate_data():
     y= B1*X1+ B2*X2 +epsilon
 
     # model = smf.OLS ('Y~np.log(X)', data=df1).fit()
-   pass
+'''pass
 
 
 def compare_models():
